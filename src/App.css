@@ -15,18 +15,20 @@
 
 .new-task {
   width: 60%;
+  box-sizing: border-box;
 }
 
 .task-input{
   height: 30px;
   width: 90%;
+
 }
 
 .add-task-btn{
   height: 36px;
   position: relative;
   top: 2px;
-  width: 8.79%;
+  width: 9%;
 }
 
 .tasks-list {
@@ -36,6 +38,7 @@
 
 .task {
   display: flex;
+  box-sizing: border-box;
   width: 100%;
   border: 2px;
   border-style: solid;
