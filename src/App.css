@@ -1,0 +1,67 @@
+.tasks-part {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.header {
+  background-color: #5a89ea;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.new-task {
+  width: 60%;
+}
+
+.task-input{
+  height: 30px;
+  width: 90%;
+}
+
+.add-task-btn{
+  height: 36px;
+  position: relative;
+  top: 2px;
+  width: 8.79%;
+}
+
+.tasks-list {
+  width: 60%;
+  margin-top: 5px;
+}
+
+.task {
+  display: flex;
+  width: 100%;
+  border: 2px;
+  border-style: solid;
+  border-color: #ebe9ec;
+  border-radius: 5px;
+}
+
+.check-icon {
+  margin-top: 17px;
+  margin-left: 10px;
+}
+
+.task-name {
+  width: 90%;
+  margin-left: 3px;
+}
+
+.delete-btn {
+  position: relative;
+  float: right;
+  width: 8%;
+  border: 0;
+  background-color: #ffffff;
+}
+
+#trash {
+  color: #ff0000;
+  font-size: 20px;
+}
