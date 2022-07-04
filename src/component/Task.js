@@ -14,6 +14,9 @@ class Task extends React.Component {
     }
 
     render() {
+        if (this.props.name.trim().length === 0){
+            return;
+        }
         return (
             <div className="task">
                 {this.state.isDone === false ? <img src="/circle.png" className='check-icon' width="15px" height="15px" alt="circle" onClick={this.handleCheck} /> :  <img src="/done.png" className='check-icon' width="15px" height="15px" alt="circle" onClick={this.handleCheck} />}
